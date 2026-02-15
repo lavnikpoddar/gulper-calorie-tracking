@@ -19,6 +19,8 @@
       "usesAppleSignIn": true,
       "infoPlist": {
         "NSHealthShareUsageDescription": "Gulper uses health data to help you track your calories and weight.",
+        "NSCameraUsageDescription": "Gulper needs access to your camera to let you take a profile picture.",
+        "NSPhotoLibraryUsageDescription": "Gulper needs access to your photos to let you select a profile picture.",
         "ITSAppUsesNonExemptEncryption": false
       }
     },
