@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "Gulper",
+    "slug": "gulper",
+    "scheme": "gulper",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#22C55E"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.gulper.app",
+      "usesAppleSignIn": true,
+      "infoPlist": {
+        "NSHealthShareUsageDescription": "Gulper uses health data to help you track your calories and weight.",
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#22C55E"
+      },
+      "package": "com.gulper.app",
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "plugins": [
+      "expo-splash-screen",
+      "expo-apple-authentication",
+      [
+        "@react-native-google-signin/google-signin",
+        {
+          "iosUrlScheme": "com.googleusercontent.apps.49433036460-ke0s8ia3pg3iraee7pq2jslplns97d9u"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "1dae46a5-0e74-4415-8bd1-23e5a4d8b35c"
+      }
+    },
+    "owner": "lavnikpoddar"
+  }
+}
